@@ -28,7 +28,7 @@ Byte 19  Endkennung    FB bzw. EB  (= Startkennung + 1)
 ```
 
 Ablauf: Das Panel sendet ca. **jede Sekunde** einen FA-Frame, die Heizung antwortet **≈ 230 ms** später mit einem EA-Frame.
-Alle 2768 Frames beider Aufnahmen haben eine korrekte Prüfsumme.
+Alle 3145 Frames beider Aufnahmen haben eine korrekte Prüfsumme.
 
 ## Befehle des Panels (Byte 1 im FA-Frame, Nutzdaten immer 00)
 
